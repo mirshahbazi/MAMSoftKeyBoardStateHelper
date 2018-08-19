@@ -39,7 +39,10 @@ public abstract class AutoActivityLifeCycleCallback implements Application.Activ
 
     @Override
     public void onActivityPaused(Activity activity) {
-
+        if(mCurrentActivity == activity){
+            mCurrentActivity.getApplication().unregisterActivityLifecycleCallbacks(this);
+            onCurrentActivityDestroyed();
+        }
     }
 
     @Override
