@@ -7,6 +7,8 @@ enjoy it :D.
 [![](https://jitpack.io/v/mirshahbazi/MAMSoftKeyBoardStateHelper.svg)](https://jitpack.io/#mirshahbazi/MAMSoftKeyBoardStateHelper)
 
 
+![Hero Image](https://github.com/mirshahbazi/MAMSoftKeyBoardStateHelper/blob/master/.idea/demo/demoMAM.gif)
+
 
 # Usage
 See the sample app. Typical usage:
